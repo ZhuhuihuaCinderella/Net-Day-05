@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC3FE1641C51C8D400390152 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3FE1631C51C8D400390152 /* main.m */; };
+		BC3FE1671C51C8D400390152 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3FE1661C51C8D400390152 /* AppDelegate.m */; };
+		BC3FE16A1C51C8D400390152 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3FE1691C51C8D400390152 /* ViewController.m */; };
+		BC3FE16D1C51C8D400390152 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3FE16B1C51C8D400390152 /* Main.storyboard */; };
+		BC3FE16F1C51C8D400390152 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC3FE16E1C51C8D400390152 /* Assets.xcassets */; };
+		BC3FE1721C51C8D400390152 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3FE1701C51C8D400390152 /* LaunchScreen.storyboard */; };
+		BC3FE17D1C51C8D400390152 /* AVPlayerWithAudion__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3FE17C1C51C8D400390152 /* AVPlayerWithAudion__Tests.m */; };
+		BC3FE1881C51C8D400390152 /* AVPlayerWithAudion__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3FE1871C51C8D400390152 /* AVPlayerWithAudion__UITests.m */; };
+		BC3FE1961C51CA5600390152 /* 亡灵序曲.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC3FE1951C51CA5600390152 /* 亡灵序曲.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC3FE1791C51C8D400390152 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC3FE1571C51C8D300390152 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC3FE15E1C51C8D300390152;
+			remoteInfo = "AVPlayerWithAudion音频";
+		};
+		BC3FE1841C51C8D400390152 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC3FE1571C51C8D300390152 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC3FE15E1C51C8D300390152;
+			remoteInfo = "AVPlayerWithAudion音频";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC3FE15F1C51C8D400390152 /* AVPlayerWithAudion音频.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AVPlayerWithAudion音频.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3FE1631C51C8D400390152 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC3FE1651C51C8D400390152 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC3FE1661C51C8D400390152 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC3FE1681C51C8D400390152 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC3FE1691C51C8D400390152 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC3FE16C1C51C8D400390152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC3FE16E1C51C8D400390152 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC3FE1711C51C8D400390152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC3FE1731C51C8D400390152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC3FE1781C51C8D400390152 /* AVPlayerWithAudion音频Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AVPlayerWithAudion音频Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3FE17C1C51C8D400390152 /* AVPlayerWithAudion__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerWithAudion__Tests.m; sourceTree = "<group>"; };
+		BC3FE17E1C51C8D400390152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC3FE1831C51C8D400390152 /* AVPlayerWithAudion音频UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AVPlayerWithAudion音频UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3FE1871C51C8D400390152 /* AVPlayerWithAudion__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerWithAudion__UITests.m; sourceTree = "<group>"; };
+		BC3FE1891C51C8D400390152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC3FE1951C51CA5600390152 /* 亡灵序曲.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "亡灵序曲.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC3FE15C1C51C8D300390152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3FE1751C51C8D400390152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3FE1801C51C8D400390152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC3FE1561C51C8D300390152 = {
+			isa = PBXGroup;
+			children = (
+				BC3FE1611C51C8D400390152 /* AVPlayerWithAudion音频 */,
+				BC3FE17B1C51C8D400390152 /* AVPlayerWithAudion音频Tests */,
+				BC3FE1861C51C8D400390152 /* AVPlayerWithAudion音频UITests */,
+				BC3FE1601C51C8D400390152 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3FE1601C51C8D400390152 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC3FE15F1C51C8D400390152 /* AVPlayerWithAudion音频.app */,
+				BC3FE1781C51C8D400390152 /* AVPlayerWithAudion音频Tests.xctest */,
+				BC3FE1831C51C8D400390152 /* AVPlayerWithAudion音频UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3FE1611C51C8D400390152 /* AVPlayerWithAudion音频 */ = {
+			isa = PBXGroup;
+			children = (
+				BC3FE1951C51CA5600390152 /* 亡灵序曲.mp3 */,
+				BC3FE1651C51C8D400390152 /* AppDelegate.h */,
+				BC3FE1661C51C8D400390152 /* AppDelegate.m */,
+				BC3FE1681C51C8D400390152 /* ViewController.h */,
+				BC3FE1691C51C8D400390152 /* ViewController.m */,
+				BC3FE16B1C51C8D400390152 /* Main.storyboard */,
+				BC3FE16E1C51C8D400390152 /* Assets.xcassets */,
+				BC3FE1701C51C8D400390152 /* LaunchScreen.storyboard */,
+				BC3FE1731C51C8D400390152 /* Info.plist */,
+				BC3FE1621C51C8D400390152 /* Supporting Files */,
+			);
+			path = "AVPlayerWithAudion音频";
+			sourceTree = "<group>";
+		};
+		BC3FE1621C51C8D400390152 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC3FE1631C51C8D400390152 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC3FE17B1C51C8D400390152 /* AVPlayerWithAudion音频Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BC3FE17C1C51C8D400390152 /* AVPlayerWithAudion__Tests.m */,
+				BC3FE17E1C51C8D400390152 /* Info.plist */,
+			);
+			path = "AVPlayerWithAudion音频Tests";
+			sourceTree = "<group>";
+		};
+		BC3FE1861C51C8D400390152 /* AVPlayerWithAudion音频UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC3FE1871C51C8D400390152 /* AVPlayerWithAudion__UITests.m */,
+				BC3FE1891C51C8D400390152 /* Info.plist */,
+			);
+			path = "AVPlayerWithAudion音频UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC3FE15E1C51C8D300390152 /* AVPlayerWithAudion音频 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC3FE18C1C51C8D400390152 /* Build configuration list for PBXNativeTarget "AVPlayerWithAudion音频" */;
+			buildPhases = (
+				BC3FE15B1C51C8D300390152 /* Sources */,
+				BC3FE15C1C51C8D300390152 /* Frameworks */,
+				BC3FE15D1C51C8D300390152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AVPlayerWithAudion音频";
+			productName = "AVPlayerWithAudion音频";
+			productReference = BC3FE15F1C51C8D400390152 /* AVPlayerWithAudion音频.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC3FE1771C51C8D400390152 /* AVPlayerWithAudion音频Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC3FE18F1C51C8D400390152 /* Build configuration list for PBXNativeTarget "AVPlayerWithAudion音频Tests" */;
+			buildPhases = (
+				BC3FE1741C51C8D400390152 /* Sources */,
+				BC3FE1751C51C8D400390152 /* Frameworks */,
+				BC3FE1761C51C8D400390152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC3FE17A1C51C8D400390152 /* PBXTargetDependency */,
+			);
+			name = "AVPlayerWithAudion音频Tests";
+			productName = "AVPlayerWithAudion音频Tests";
+			productReference = BC3FE1781C51C8D400390152 /* AVPlayerWithAudion音频Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC3FE1821C51C8D400390152 /* AVPlayerWithAudion音频UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC3FE1921C51C8D400390152 /* Build configuration list for PBXNativeTarget "AVPlayerWithAudion音频UITests" */;
+			buildPhases = (
+				BC3FE17F1C51C8D400390152 /* Sources */,
+				BC3FE1801C51C8D400390152 /* Frameworks */,
+				BC3FE1811C51C8D400390152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC3FE1851C51C8D400390152 /* PBXTargetDependency */,
+			);
+			name = "AVPlayerWithAudion音频UITests";
+			productName = "AVPlayerWithAudion音频UITests";
+			productReference = BC3FE1831C51C8D400390152 /* AVPlayerWithAudion音频UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC3FE1571C51C8D300390152 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "王鹏宇";
+				TargetAttributes = {
+					BC3FE15E1C51C8D300390152 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					BC3FE1771C51C8D400390152 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BC3FE15E1C51C8D300390152;
+					};
+					BC3FE1821C51C8D400390152 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BC3FE15E1C51C8D300390152;
+					};
+				};
+			};
+			buildConfigurationList = BC3FE15A1C51C8D300390152 /* Build configuration list for PBXProject "AVPlayerWithAudion音频" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC3FE1561C51C8D300390152;
+			productRefGroup = BC3FE1601C51C8D400390152 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC3FE15E1C51C8D300390152 /* AVPlayerWithAudion音频 */,
+				BC3FE1771C51C8D400390152 /* AVPlayerWithAudion音频Tests */,
+				BC3FE1821C51C8D400390152 /* AVPlayerWithAudion音频UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC3FE15D1C51C8D300390152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3FE1721C51C8D400390152 /* LaunchScreen.storyboard in Resources */,
+				BC3FE1961C51CA5600390152 /* 亡灵序曲.mp3 in Resources */,
+				BC3FE16F1C51C8D400390152 /* Assets.xcassets in Resources */,
+				BC3FE16D1C51C8D400390152 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3FE1761C51C8D400390152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3FE1811C51C8D400390152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC3FE15B1C51C8D300390152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3FE16A1C51C8D400390152 /* ViewController.m in Sources */,
+				BC3FE1671C51C8D400390152 /* AppDelegate.m in Sources */,
+				BC3FE1641C51C8D400390152 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3FE1741C51C8D400390152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3FE17D1C51C8D400390152 /* AVPlayerWithAudion__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3FE17F1C51C8D400390152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3FE1881C51C8D400390152 /* AVPlayerWithAudion__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC3FE17A1C51C8D400390152 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC3FE15E1C51C8D300390152 /* AVPlayerWithAudion音频 */;
+			targetProxy = BC3FE1791C51C8D400390152 /* PBXContainerItemProxy */;
+		};
+		BC3FE1851C51C8D400390152 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC3FE15E1C51C8D300390152 /* AVPlayerWithAudion音频 */;
+			targetProxy = BC3FE1841C51C8D400390152 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC3FE16B1C51C8D400390152 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC3FE16C1C51C8D400390152 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC3FE1701C51C8D400390152 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC3FE1711C51C8D400390152 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC3FE18A1C51C8D400390152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC3FE18B1C51C8D400390152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC3FE18D1C51C8D400390152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AVPlayerWithAudion音频/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1519.AVPlayerWithAudion--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC3FE18E1C51C8D400390152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AVPlayerWithAudion音频/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1519.AVPlayerWithAudion--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC3FE1901C51C8D400390152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AVPlayerWithAudion音频Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1519.AVPlayerWithAudion--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVPlayerWithAudion音频.app/AVPlayerWithAudion音频";
+			};
+			name = Debug;
+		};
+		BC3FE1911C51C8D400390152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AVPlayerWithAudion音频Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1519.AVPlayerWithAudion--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVPlayerWithAudion音频.app/AVPlayerWithAudion音频";
+			};
+			name = Release;
+		};
+		BC3FE1931C51C8D400390152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AVPlayerWithAudion音频UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1519.AVPlayerWithAudion--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AVPlayerWithAudion音频";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BC3FE1941C51C8D400390152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AVPlayerWithAudion音频UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1519.AVPlayerWithAudion--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AVPlayerWithAudion音频";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC3FE15A1C51C8D300390152 /* Build configuration list for PBXProject "AVPlayerWithAudion音频" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3FE18A1C51C8D400390152 /* Debug */,
+				BC3FE18B1C51C8D400390152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC3FE18C1C51C8D400390152 /* Build configuration list for PBXNativeTarget "AVPlayerWithAudion音频" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3FE18D1C51C8D400390152 /* Debug */,
+				BC3FE18E1C51C8D400390152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC3FE18F1C51C8D400390152 /* Build configuration list for PBXNativeTarget "AVPlayerWithAudion音频Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3FE1901C51C8D400390152 /* Debug */,
+				BC3FE1911C51C8D400390152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC3FE1921C51C8D400390152 /* Build configuration list for PBXNativeTarget "AVPlayerWithAudion音频UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3FE1931C51C8D400390152 /* Debug */,
+				BC3FE1941C51C8D400390152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC3FE1571C51C8D300390152 /* Project object */;
+}

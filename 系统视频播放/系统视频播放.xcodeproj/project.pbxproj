@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC3FE1E71C52264100390152 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3FE1E61C52264100390152 /* main.m */; };
+		BC3FE1EA1C52264100390152 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3FE1E91C52264100390152 /* AppDelegate.m */; };
+		BC3FE1ED1C52264100390152 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3FE1EC1C52264100390152 /* ViewController.m */; };
+		BC3FE1F01C52264100390152 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3FE1EE1C52264100390152 /* Main.storyboard */; };
+		BC3FE1F21C52264100390152 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC3FE1F11C52264100390152 /* Assets.xcassets */; };
+		BC3FE1F51C52264100390152 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3FE1F31C52264100390152 /* LaunchScreen.storyboard */; };
+		BC3FE2001C52264100390152 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3FE1FF1C52264100390152 /* ______Tests.m */; };
+		BC3FE20B1C52264100390152 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3FE20A1C52264100390152 /* ______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC3FE1FC1C52264100390152 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC3FE1DA1C52264100390152 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC3FE1E11C52264100390152;
+			remoteInfo = "系统视频播放";
+		};
+		BC3FE2071C52264100390152 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC3FE1DA1C52264100390152 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC3FE1E11C52264100390152;
+			remoteInfo = "系统视频播放";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC3FE1E21C52264100390152 /* 系统视频播放.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "系统视频播放.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3FE1E61C52264100390152 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC3FE1E81C52264100390152 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC3FE1E91C52264100390152 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC3FE1EB1C52264100390152 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC3FE1EC1C52264100390152 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC3FE1EF1C52264100390152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC3FE1F11C52264100390152 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC3FE1F41C52264100390152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC3FE1F61C52264100390152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC3FE1FB1C52264100390152 /* 系统视频播放Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "系统视频播放Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3FE1FF1C52264100390152 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		BC3FE2011C52264100390152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC3FE2061C52264100390152 /* 系统视频播放UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "系统视频播放UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3FE20A1C52264100390152 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		BC3FE20C1C52264100390152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC3FE1DF1C52264100390152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3FE1F81C52264100390152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3FE2031C52264100390152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC3FE1D91C52264100390152 = {
+			isa = PBXGroup;
+			children = (
+				BC3FE1E41C52264100390152 /* 系统视频播放 */,
+				BC3FE1FE1C52264100390152 /* 系统视频播放Tests */,
+				BC3FE2091C52264100390152 /* 系统视频播放UITests */,
+				BC3FE1E31C52264100390152 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3FE1E31C52264100390152 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC3FE1E21C52264100390152 /* 系统视频播放.app */,
+				BC3FE1FB1C52264100390152 /* 系统视频播放Tests.xctest */,
+				BC3FE2061C52264100390152 /* 系统视频播放UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3FE1E41C52264100390152 /* 系统视频播放 */ = {
+			isa = PBXGroup;
+			children = (
+				BC3FE1E81C52264100390152 /* AppDelegate.h */,
+				BC3FE1E91C52264100390152 /* AppDelegate.m */,
+				BC3FE1EB1C52264100390152 /* ViewController.h */,
+				BC3FE1EC1C52264100390152 /* ViewController.m */,
+				BC3FE1EE1C52264100390152 /* Main.storyboard */,
+				BC3FE1F11C52264100390152 /* Assets.xcassets */,
+				BC3FE1F31C52264100390152 /* LaunchScreen.storyboard */,
+				BC3FE1F61C52264100390152 /* Info.plist */,
+				BC3FE1E51C52264100390152 /* Supporting Files */,
+			);
+			path = "系统视频播放";
+			sourceTree = "<group>";
+		};
+		BC3FE1E51C52264100390152 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC3FE1E61C52264100390152 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC3FE1FE1C52264100390152 /* 系统视频播放Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BC3FE1FF1C52264100390152 /* ______Tests.m */,
+				BC3FE2011C52264100390152 /* Info.plist */,
+			);
+			path = "系统视频播放Tests";
+			sourceTree = "<group>";
+		};
+		BC3FE2091C52264100390152 /* 系统视频播放UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC3FE20A1C52264100390152 /* ______UITests.m */,
+				BC3FE20C1C52264100390152 /* Info.plist */,
+			);
+			path = "系统视频播放UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC3FE1E11C52264100390152 /* 系统视频播放 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC3FE20F1C52264100390152 /* Build configuration list for PBXNativeTarget "系统视频播放" */;
+			buildPhases = (
+				BC3FE1DE1C52264100390152 /* Sources */,
+				BC3FE1DF1C52264100390152 /* Frameworks */,
+				BC3FE1E01C52264100390152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "系统视频播放";
+			productName = "系统视频播放";
+			productReference = BC3FE1E21C52264100390152 /* 系统视频播放.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC3FE1FA1C52264100390152 /* 系统视频播放Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC3FE2121C52264100390152 /* Build configuration list for PBXNativeTarget "系统视频播放Tests" */;
+			buildPhases = (
+				BC3FE1F71C52264100390152 /* Sources */,
+				BC3FE1F81C52264100390152 /* Frameworks */,
+				BC3FE1F91C52264100390152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC3FE1FD1C52264100390152 /* PBXTargetDependency */,
+			);
+			name = "系统视频播放Tests";
+			productName = "系统视频播放Tests";
+			productReference = BC3FE1FB1C52264100390152 /* 系统视频播放Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC3FE2051C52264100390152 /* 系统视频播放UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC3FE2151C52264100390152 /* Build configuration list for PBXNativeTarget "系统视频播放UITests" */;
+			buildPhases = (
+				BC3FE2021C52264100390152 /* Sources */,
+				BC3FE2031C52264100390152 /* Frameworks */,
+				BC3FE2041C52264100390152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC3FE2081C52264100390152 /* PBXTargetDependency */,
+			);
+			name = "系统视频播放UITests";
+			productName = "系统视频播放UITests";
+			productReference = BC3FE2061C52264100390152 /* 系统视频播放UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC3FE1DA1C52264100390152 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "王鹏宇";
+				TargetAttributes = {
+					BC3FE1E11C52264100390152 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					BC3FE1FA1C52264100390152 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BC3FE1E11C52264100390152;
+					};
+					BC3FE2051C52264100390152 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BC3FE1E11C52264100390152;
+					};
+				};
+			};
+			buildConfigurationList = BC3FE1DD1C52264100390152 /* Build configuration list for PBXProject "系统视频播放" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC3FE1D91C52264100390152;
+			productRefGroup = BC3FE1E31C52264100390152 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC3FE1E11C52264100390152 /* 系统视频播放 */,
+				BC3FE1FA1C52264100390152 /* 系统视频播放Tests */,
+				BC3FE2051C52264100390152 /* 系统视频播放UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC3FE1E01C52264100390152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3FE1F51C52264100390152 /* LaunchScreen.storyboard in Resources */,
+				BC3FE1F21C52264100390152 /* Assets.xcassets in Resources */,
+				BC3FE1F01C52264100390152 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3FE1F91C52264100390152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3FE2041C52264100390152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC3FE1DE1C52264100390152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3FE1ED1C52264100390152 /* ViewController.m in Sources */,
+				BC3FE1EA1C52264100390152 /* AppDelegate.m in Sources */,
+				BC3FE1E71C52264100390152 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3FE1F71C52264100390152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3FE2001C52264100390152 /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3FE2021C52264100390152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3FE20B1C52264100390152 /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC3FE1FD1C52264100390152 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC3FE1E11C52264100390152 /* 系统视频播放 */;
+			targetProxy = BC3FE1FC1C52264100390152 /* PBXContainerItemProxy */;
+		};
+		BC3FE2081C52264100390152 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC3FE1E11C52264100390152 /* 系统视频播放 */;
+			targetProxy = BC3FE2071C52264100390152 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC3FE1EE1C52264100390152 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC3FE1EF1C52264100390152 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC3FE1F31C52264100390152 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC3FE1F41C52264100390152 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC3FE20D1C52264100390152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC3FE20E1C52264100390152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC3FE2101C52264100390152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "系统视频播放/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1519.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC3FE2111C52264100390152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "系统视频播放/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1519.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC3FE2131C52264100390152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "系统视频播放Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1519.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/系统视频播放.app/系统视频播放";
+			};
+			name = Debug;
+		};
+		BC3FE2141C52264100390152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "系统视频播放Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1519.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/系统视频播放.app/系统视频播放";
+			};
+			name = Release;
+		};
+		BC3FE2161C52264100390152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "系统视频播放UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1519.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "系统视频播放";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BC3FE2171C52264100390152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "系统视频播放UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1519.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "系统视频播放";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC3FE1DD1C52264100390152 /* Build configuration list for PBXProject "系统视频播放" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3FE20D1C52264100390152 /* Debug */,
+				BC3FE20E1C52264100390152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC3FE20F1C52264100390152 /* Build configuration list for PBXNativeTarget "系统视频播放" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3FE2101C52264100390152 /* Debug */,
+				BC3FE2111C52264100390152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC3FE2121C52264100390152 /* Build configuration list for PBXNativeTarget "系统视频播放Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3FE2131C52264100390152 /* Debug */,
+				BC3FE2141C52264100390152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC3FE2151C52264100390152 /* Build configuration list for PBXNativeTarget "系统视频播放UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3FE2161C52264100390152 /* Debug */,
+				BC3FE2171C52264100390152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC3FE1DA1C52264100390152 /* Project object */;
+}

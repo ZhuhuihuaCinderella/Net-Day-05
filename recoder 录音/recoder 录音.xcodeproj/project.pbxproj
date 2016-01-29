@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC3FE2261C522BED00390152 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3FE2251C522BED00390152 /* main.m */; };
+		BC3FE2291C522BED00390152 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3FE2281C522BED00390152 /* AppDelegate.m */; };
+		BC3FE22C1C522BED00390152 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3FE22B1C522BED00390152 /* ViewController.m */; };
+		BC3FE22F1C522BED00390152 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3FE22D1C522BED00390152 /* Main.storyboard */; };
+		BC3FE2311C522BED00390152 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC3FE2301C522BED00390152 /* Assets.xcassets */; };
+		BC3FE2341C522BED00390152 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3FE2321C522BED00390152 /* LaunchScreen.storyboard */; };
+		BC3FE23F1C522BED00390152 /* recoder___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3FE23E1C522BED00390152 /* recoder___Tests.m */; };
+		BC3FE24A1C522BED00390152 /* recoder___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3FE2491C522BED00390152 /* recoder___UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC3FE23B1C522BED00390152 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC3FE2191C522BED00390152 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC3FE2201C522BED00390152;
+			remoteInfo = "recoder 录音";
+		};
+		BC3FE2461C522BED00390152 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC3FE2191C522BED00390152 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC3FE2201C522BED00390152;
+			remoteInfo = "recoder 录音";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC3FE2211C522BED00390152 /* recoder 录音.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "recoder 录音.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3FE2251C522BED00390152 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC3FE2271C522BED00390152 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC3FE2281C522BED00390152 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC3FE22A1C522BED00390152 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC3FE22B1C522BED00390152 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC3FE22E1C522BED00390152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC3FE2301C522BED00390152 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC3FE2331C522BED00390152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC3FE2351C522BED00390152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC3FE23A1C522BED00390152 /* recoder 录音Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "recoder 录音Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3FE23E1C522BED00390152 /* recoder___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "recoder___Tests.m"; sourceTree = "<group>"; };
+		BC3FE2401C522BED00390152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC3FE2451C522BED00390152 /* recoder 录音UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "recoder 录音UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3FE2491C522BED00390152 /* recoder___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "recoder___UITests.m"; sourceTree = "<group>"; };
+		BC3FE24B1C522BED00390152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC3FE21E1C522BED00390152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3FE2371C522BED00390152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3FE2421C522BED00390152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC3FE2181C522BED00390152 = {
+			isa = PBXGroup;
+			children = (
+				BC3FE2231C522BED00390152 /* recoder 录音 */,
+				BC3FE23D1C522BED00390152 /* recoder 录音Tests */,
+				BC3FE2481C522BED00390152 /* recoder 录音UITests */,
+				BC3FE2221C522BED00390152 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3FE2221C522BED00390152 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC3FE2211C522BED00390152 /* recoder 录音.app */,
+				BC3FE23A1C522BED00390152 /* recoder 录音Tests.xctest */,
+				BC3FE2451C522BED00390152 /* recoder 录音UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3FE2231C522BED00390152 /* recoder 录音 */ = {
+			isa = PBXGroup;
+			children = (
+				BC3FE2271C522BED00390152 /* AppDelegate.h */,
+				BC3FE2281C522BED00390152 /* AppDelegate.m */,
+				BC3FE22A1C522BED00390152 /* ViewController.h */,
+				BC3FE22B1C522BED00390152 /* ViewController.m */,
+				BC3FE22D1C522BED00390152 /* Main.storyboard */,
+				BC3FE2301C522BED00390152 /* Assets.xcassets */,
+				BC3FE2321C522BED00390152 /* LaunchScreen.storyboard */,
+				BC3FE2351C522BED00390152 /* Info.plist */,
+				BC3FE2241C522BED00390152 /* Supporting Files */,
+			);
+			path = "recoder 录音";
+			sourceTree = "<group>";
+		};
+		BC3FE2241C522BED00390152 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC3FE2251C522BED00390152 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC3FE23D1C522BED00390152 /* recoder 录音Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BC3FE23E1C522BED00390152 /* recoder___Tests.m */,
+				BC3FE2401C522BED00390152 /* Info.plist */,
+			);
+			path = "recoder 录音Tests";
+			sourceTree = "<group>";
+		};
+		BC3FE2481C522BED00390152 /* recoder 录音UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC3FE2491C522BED00390152 /* recoder___UITests.m */,
+				BC3FE24B1C522BED00390152 /* Info.plist */,
+			);
+			path = "recoder 录音UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC3FE2201C522BED00390152 /* recoder 录音 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC3FE24E1C522BED00390152 /* Build configuration list for PBXNativeTarget "recoder 录音" */;
+			buildPhases = (
+				BC3FE21D1C522BED00390152 /* Sources */,
+				BC3FE21E1C522BED00390152 /* Frameworks */,
+				BC3FE21F1C522BED00390152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "recoder 录音";
+			productName = "recoder 录音";
+			productReference = BC3FE2211C522BED00390152 /* recoder 录音.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC3FE2391C522BED00390152 /* recoder 录音Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC3FE2511C522BED00390152 /* Build configuration list for PBXNativeTarget "recoder 录音Tests" */;
+			buildPhases = (
+				BC3FE2361C522BED00390152 /* Sources */,
+				BC3FE2371C522BED00390152 /* Frameworks */,
+				BC3FE2381C522BED00390152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC3FE23C1C522BED00390152 /* PBXTargetDependency */,
+			);
+			name = "recoder 录音Tests";
+			productName = "recoder 录音Tests";
+			productReference = BC3FE23A1C522BED00390152 /* recoder 录音Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC3FE2441C522BED00390152 /* recoder 录音UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC3FE2541C522BED00390152 /* Build configuration list for PBXNativeTarget "recoder 录音UITests" */;
+			buildPhases = (
+				BC3FE2411C522BED00390152 /* Sources */,
+				BC3FE2421C522BED00390152 /* Frameworks */,
+				BC3FE2431C522BED00390152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC3FE2471C522BED00390152 /* PBXTargetDependency */,
+			);
+			name = "recoder 录音UITests";
+			productName = "recoder 录音UITests";
+			productReference = BC3FE2451C522BED00390152 /* recoder 录音UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC3FE2191C522BED00390152 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "王鹏宇";
+				TargetAttributes = {
+					BC3FE2201C522BED00390152 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					BC3FE2391C522BED00390152 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BC3FE2201C522BED00390152;
+					};
+					BC3FE2441C522BED00390152 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BC3FE2201C522BED00390152;
+					};
+				};
+			};
+			buildConfigurationList = BC3FE21C1C522BED00390152 /* Build configuration list for PBXProject "recoder 录音" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC3FE2181C522BED00390152;
+			productRefGroup = BC3FE2221C522BED00390152 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC3FE2201C522BED00390152 /* recoder 录音 */,
+				BC3FE2391C522BED00390152 /* recoder 录音Tests */,
+				BC3FE2441C522BED00390152 /* recoder 录音UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC3FE21F1C522BED00390152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3FE2341C522BED00390152 /* LaunchScreen.storyboard in Resources */,
+				BC3FE2311C522BED00390152 /* Assets.xcassets in Resources */,
+				BC3FE22F1C522BED00390152 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3FE2381C522BED00390152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3FE2431C522BED00390152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC3FE21D1C522BED00390152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3FE22C1C522BED00390152 /* ViewController.m in Sources */,
+				BC3FE2291C522BED00390152 /* AppDelegate.m in Sources */,
+				BC3FE2261C522BED00390152 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3FE2361C522BED00390152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3FE23F1C522BED00390152 /* recoder___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3FE2411C522BED00390152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3FE24A1C522BED00390152 /* recoder___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC3FE23C1C522BED00390152 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC3FE2201C522BED00390152 /* recoder 录音 */;
+			targetProxy = BC3FE23B1C522BED00390152 /* PBXContainerItemProxy */;
+		};
+		BC3FE2471C522BED00390152 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC3FE2201C522BED00390152 /* recoder 录音 */;
+			targetProxy = BC3FE2461C522BED00390152 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC3FE22D1C522BED00390152 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC3FE22E1C522BED00390152 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC3FE2321C522BED00390152 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC3FE2331C522BED00390152 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC3FE24C1C522BED00390152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC3FE24D1C522BED00390152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC3FE24F1C522BED00390152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "recoder 录音/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1519.recoder---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC3FE2501C522BED00390152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "recoder 录音/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1519.recoder---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC3FE2521C522BED00390152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "recoder 录音Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1519.recoder---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/recoder 录音.app/recoder 录音";
+			};
+			name = Debug;
+		};
+		BC3FE2531C522BED00390152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "recoder 录音Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1519.recoder---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/recoder 录音.app/recoder 录音";
+			};
+			name = Release;
+		};
+		BC3FE2551C522BED00390152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "recoder 录音UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1519.recoder---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "recoder 录音";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BC3FE2561C522BED00390152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "recoder 录音UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1519.recoder---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "recoder 录音";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC3FE21C1C522BED00390152 /* Build configuration list for PBXProject "recoder 录音" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3FE24C1C522BED00390152 /* Debug */,
+				BC3FE24D1C522BED00390152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC3FE24E1C522BED00390152 /* Build configuration list for PBXNativeTarget "recoder 录音" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3FE24F1C522BED00390152 /* Debug */,
+				BC3FE2501C522BED00390152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC3FE2511C522BED00390152 /* Build configuration list for PBXNativeTarget "recoder 录音Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3FE2521C522BED00390152 /* Debug */,
+				BC3FE2531C522BED00390152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC3FE2541C522BED00390152 /* Build configuration list for PBXNativeTarget "recoder 录音UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3FE2551C522BED00390152 /* Debug */,
+				BC3FE2561C522BED00390152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC3FE2191C522BED00390152 /* Project object */;
+}
